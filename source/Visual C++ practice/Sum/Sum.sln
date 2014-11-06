@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sum", "Sum\Sum.vcxproj", "{AC84BBB5-27F2-4AF8-87D6-6D82187A24D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC84BBB5-27F2-4AF8-87D6-6D82187A24D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC84BBB5-27F2-4AF8-87D6-6D82187A24D1}.Debug|Win32.Build.0 = Debug|Win32
+		{AC84BBB5-27F2-4AF8-87D6-6D82187A24D1}.Release|Win32.ActiveCfg = Release|Win32
+		{AC84BBB5-27F2-4AF8-87D6-6D82187A24D1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

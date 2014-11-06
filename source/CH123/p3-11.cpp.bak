@@ -1,0 +1,11 @@
+/* program io04.c */
+/* demo item space control */
+#include<stdio.h>
+int main()
+{               int x=10;
+                printf("x= %d\n",ch);
+                printf("address of x is %\n", &ch);
+	
+	return 0;
+}
+

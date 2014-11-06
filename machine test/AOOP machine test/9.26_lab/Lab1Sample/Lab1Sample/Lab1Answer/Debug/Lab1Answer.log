@@ -1,0 +1,20 @@
+﻿已經開始建置於 2013/9/26 下午 11:55:38。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Dropbox\AOOP\Lab1Sample\Lab1Sample\Lab1Answer\Lab1Answer.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\Lab1Answer.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Lab1Answer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Lab1Answer.cpp /clr:nostdlib 
+         Lab1Answer.cpp
+     1>c:\users\user\dropbox\aoop\lab1sample\lab1sample\lab1answer\Form1.h(131): error C2065: 'timer' : 未宣告的識別項
+     1>c:\users\user\dropbox\aoop\lab1sample\lab1sample\lab1answer\Form1.h(131): error C2227: '->interval' 的左邊必須指向類別/結構/等位/泛型型別
+                 型別為 ''unknown-type''
+     1>c:\users\user\dropbox\aoop\lab1sample\lab1sample\lab1answer\Form1.h(135): error C2039: 'interval' : 不是 'System::Windows::Forms::Timer' 的成員
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : 請參閱 'System::Windows::Forms::Timer' 的宣告
+     1>專案 "C:\Users\user\Dropbox\AOOP\Lab1Sample\Lab1Sample\Lab1Answer\Lab1Answer.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.71

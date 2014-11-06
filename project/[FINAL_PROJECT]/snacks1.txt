@@ -1,0 +1,5 @@
+chips    1001     10       20       1        20130121 dipi     15       
+puffs    1002     20       15       1        20130120 dipii    20       
+cookies  1003     15       20       1        20130119 dipiii   15       
+cakes    1004     10       45       1        20130118 dipiiii  30       
+breads   1005     19       20       1        20130117 dipiiiii 10       

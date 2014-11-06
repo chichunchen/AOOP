@@ -1,0 +1,16 @@
+G:\ccc102\CSharp\POS\POS\bin\Debug\POS.exe
+G:\ccc102\CSharp\POS\POS\bin\Debug\POS.pdb
+G:\ccc102\CSharp\POS\POS\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\ccc102\CSharp\POS\POS\obj\x86\Debug\POS.Form1.resources
+G:\ccc102\CSharp\POS\POS\obj\x86\Debug\POS.Properties.Resources.resources
+G:\ccc102\CSharp\POS\POS\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\ccc102\CSharp\POS\POS\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\ccc102\CSharp\POS\POS\obj\x86\Debug\POS.exe
+G:\ccc102\CSharp\POS\POS\obj\x86\Debug\POS.pdb
+C:\Users\user\Desktop\POS2012\POS\POS\obj\x86\Debug\POS.exe
+C:\Users\user\Desktop\POS2012\POS\POS\obj\x86\Debug\POS.pdb
+C:\Users\user\Desktop\POS2012\POS\POS\bin\Debug\POS.exe
+C:\Users\user\Desktop\POS2012\POS\POS\bin\Debug\POS.pdb
+C:\Users\user\Desktop\POS2012\POS\POS\obj\x86\Debug\POS.Form1.resources
+C:\Users\user\Desktop\POS2012\POS\POS\obj\x86\Debug\POS.Properties.Resources.resources
+C:\Users\user\Desktop\POS2012\POS\POS\obj\x86\Debug\POS.csproj.GenerateResource.Cache

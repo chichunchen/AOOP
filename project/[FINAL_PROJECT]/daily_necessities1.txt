@@ -1,0 +1,5 @@
+shampoo  3001     10       100      3        20130121 pipi     
+soap     3002     20       80       3        20130120 pipii    
+bodywash 3003     10       100      3        20130119 pipiii   
+clothes  3004     7        300      3        20130118 pipiiii  
+tissue   3005     30       50       3        20130117 pipiiiii 

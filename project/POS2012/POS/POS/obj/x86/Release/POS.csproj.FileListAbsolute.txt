@@ -1,0 +1,9 @@
+G:\ccc102\CSharp\POS\POS\bin\Release\POS.exe
+G:\ccc102\CSharp\POS\POS\bin\Release\POS.pdb
+G:\ccc102\CSharp\POS\POS\obj\x86\Release\ResolveAssemblyReference.cache
+G:\ccc102\CSharp\POS\POS\obj\x86\Release\POS.Form1.resources
+G:\ccc102\CSharp\POS\POS\obj\x86\Release\POS.Properties.Resources.resources
+G:\ccc102\CSharp\POS\POS\obj\x86\Release\GenerateResource.read.1.tlog
+G:\ccc102\CSharp\POS\POS\obj\x86\Release\GenerateResource.write.1.tlog
+G:\ccc102\CSharp\POS\POS\obj\x86\Release\POS.exe
+G:\ccc102\CSharp\POS\POS\obj\x86\Release\POS.pdb

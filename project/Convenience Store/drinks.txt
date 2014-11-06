@@ -1,0 +1,5 @@
+merigo   2001     20       20           20130121 bipi     
+soda     2002     19       25           20130120 bipi     
+cocacola 2003     13       25           20130119 bipi     
+lemontea 2004     15       20           20130118 bipi     
+coffee   2005     22       45		20130117 bipi     

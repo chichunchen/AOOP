@@ -1,0 +1,50 @@
+﻿已經開始建置於 2013/12/28 下午 03:01:30。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Dropbox\大三上\AOOP\12.12_lab\MYSQL_Example\MYSQL_Example\MYSQL_Example.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\MYSQL_Example.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets(91,5): warning : 遺漏必要的檔案 "C:\PROGRAM FILES\MICROSOFT.NET\PRIMARY INTEROP ASSEMBLIES\MYSQL.DATA.DLL"。
+         先前的錯誤已轉換成警告，因為工作是以 ContinueOnError=true 呼叫。
+       ClCompile:
+         所有輸出都是最新的。
+         所有輸出都是最新的。
+         所有輸出都是最新的。
+       ManagedIncrementalBuildPostProcessDependencyGraph:
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 10.0\VC\BIN\1028\CLUI.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\MSCORLIB.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.CORE.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.DATA.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.DRAWING.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.WINDOWS.FORMS.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.XML.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\MICROSOFT.VISUALC.DLL' or one of its dependencies. 系統找不到指定的檔案。
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 10.0\COMMON7\IDE\MSPDBSRV.EXE' or one of its dependencies. 系統找不到指定的檔案。
+       CoreResGen:
+         相對於資源的來源檔案，並沒有資源過期。將略過產生資源。
+       ResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         所有輸出都是最新的。
+         MYSQL_Example.vcxproj -> C:\Users\user\Dropbox\大三上\AOOP\12.12_lab\MYSQL_Example\Debug\MYSQL_Example.exe
+       MetaGen:
+       將略過目標 "MetaGen"，因為所有輸出檔對於其輸入檔而言都已更新。
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\MYSQL_Example.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\MYSQL_Example.lastbuildstate"。
+     1>專案 "C:\Users\user\Dropbox\大三上\AOOP\12.12_lab\MYSQL_Example\MYSQL_Example\MYSQL_Example.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.77

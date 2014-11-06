@@ -1,0 +1,16 @@
+int main(){
+    
+    char * filename="test.txt";
+    my_String st(filename);
+    cout << "swap hours and minutes" <<endl<<endl;
+    st.operation(SWAP|DISPLAY,"hours","minutes");
+    cout <<endl<< "swap hours and seconds" <<endl<<endl;
+    st.operation(SWAP|DISPLAY,"hours","seconds");
+    cout <<endl<< "replace time to XXXXXXX" <<endl<<endl;
+    st.operation(REPLACE|DISPLAY,"time","XXXXXXX");
+
+
+      system("pause");
+      return 0;
+      
+      }

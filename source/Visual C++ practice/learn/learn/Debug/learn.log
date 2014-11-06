@@ -1,0 +1,26 @@
+﻿已經開始建置於 2013/10/20 下午 04:53:43。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Desktop\Visual C++ practice\learn\learn\learn.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\learn.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\learn.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt learn.cpp /clr:nostdlib 
+         learn.cpp
+     1>c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(38): error C2086: 'System::Windows::Forms::Label ^learn::Form1::label1' : 重複定義
+                 c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(37) : 請參閱 'learn::Form1::label1' 的宣告
+     1>c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(41): error C2086: 'System::Windows::Forms::Label ^learn::Form1::label2' : 重複定義
+                 c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(39) : 請參閱 'learn::Form1::label2' 的宣告
+     1>c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(46): error C2086: 'System::Windows::Forms::Label ^learn::Form1::label1' : 重複定義
+                 c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(37) : 請參閱 'learn::Form1::label1' 的宣告
+     1>c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(86): error C2365: 'learn::Form1::label1' : 重複定義，先前的定義是 '資料成員'
+                 c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(37) : 請參閱 'learn::Form1::label1' 的宣告
+     1>c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(88): error C2365: 'learn::Form1::label2' : 重複定義，先前的定義是 '資料成員'
+                 c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(39) : 請參閱 'learn::Form1::label2' 的宣告
+     1>c:\users\user\desktop\visual c++ practice\learn\learn\Form1.h(98): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>專案 "C:\Users\user\Desktop\Visual C++ practice\learn\learn\learn.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.21

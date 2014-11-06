@@ -1,0 +1,64 @@
+  MYSQL_Example.Form1.resources - Embedded, ContainedInManifestFile, 
+  MYSQL_Example.search_commodities.resources - Embedded, ContainedInManifestFile, 
+  MYSQL_Example.staff.resources - Embedded, ContainedInManifestFile, 
+  MYSQL_Example.store.resources - Embedded, ContainedInManifestFile, 
+  MYSQL_Example.store_commodities.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly MYSQL_Example, Version=1.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class MYSQL_Example.store: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MySql.Data.MySqlClient.MySqlConnection conDataBase : Public
+    MySql.Data.MySqlClient.MySqlCommand cmdDataBase : Public
+    MySql.Data.MySqlClient.MySqlDataReader myReader : Public
+    System.String selectedItem : Public
+Class MYSQL_Example.store_commodities: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MySql.Data.MySqlClient.MySqlConnection connect : Public
+    MySql.Data.MySqlClient.MySqlCommand cmd : Public
+    MySql.Data.MySqlClient.MySqlDataReader reader : Public
+    System.String strSQL : Public
+    System.String password : Public
+    System.String userID : Public
+    System.String server : Public
+Class MYSQL_Example.staff: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MySql.Data.MySqlClient.MySqlConnection conDataBase : Public
+    MySql.Data.MySqlClient.MySqlCommand cmdDataBase : Public
+Class MYSQL_Example.search_commodities: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    MySql.Data.MySqlClient.MySqlConnection conDataBase : Public
+    MySql.Data.MySqlClient.MySqlCommand cmdDataBase : Public
+    MySql.Data.MySqlClient.MySqlDataReader myReader : Public
+    System.String searchCommand : Public
+Class MYSQL_Example.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

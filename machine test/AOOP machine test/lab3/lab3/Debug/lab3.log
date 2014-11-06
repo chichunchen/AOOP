@@ -1,0 +1,33 @@
+﻿已經開始建置於 2013/12/25 下午 09:23:24。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Desktop\lab3\lab3\lab3.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\lab3.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\lab3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt lab3.cpp /clr:nostdlib 
+         lab3.cpp
+     1>c:\users\user\desktop\lab3\lab3\Form1.h(134): warning C4101: 'file' : 未參考的區域變數
+         所有輸出都是最新的。
+       CoreResGen:
+         相對於資源的來源檔案，並沒有資源過期。將略過產生資源。
+       ResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\lab3\Debug\lab3.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\lab3.Form1.resources /MANIFEST /ManifestFile:"Debug\lab3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Desktop\lab3\Debug\lab3.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\lab3.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         lab3.vcxproj -> C:\Users\user\Desktop\lab3\Debug\lab3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\user\Desktop\lab3\Debug\lab3.exe;#1" /manifest Debug\lab3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\lab3.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\lab3.lastbuildstate"。
+     1>專案 "C:\Users\user\Desktop\lab3\lab3\lab3.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.81

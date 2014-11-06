@@ -1,0 +1,29 @@
+object Form1: TForm1
+  Left = 226
+  Top = 165
+  Width = 870
+  Height = 499
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -14
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 120
+  TextHeight = 16
+  object Image1: TImage
+    Left = 533
+    Top = 258
+    Width = 129
+    Height = 129
+  end
+  object Timer1: TTimer
+    Interval = 200
+    OnTimer = Timer1Timer
+    Left = 32
+    Top = 24
+  end
+end

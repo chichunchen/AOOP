@@ -1,0 +1,16 @@
+/* program math03.c */
+/* demo  compute x^n  by pow function */
+#include <math.h>
+#include <stdio.h>
+int main()
+{
+	double b,e;
+	printf("Enter base : ");
+	scanf(" %lf",&b);
+	printf("Enter exponent : ");
+	scanf(" %lf",&e);
+	printf("Power(%lf,%lf)=%lf\n",b,e,pow(b,e) );
+	printf("Power(%lf,%lf)=%lf\n",3.0,9.0,pow(3.0,9.0) );
+	return 0;
+}
+

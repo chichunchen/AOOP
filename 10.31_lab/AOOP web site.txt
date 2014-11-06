@@ -1,0 +1,12 @@
+stunion.nctu.edu.tw
+port 80
+網頁名稱: /AOOP/appp.lab3.html
+原網址: stunion.nctu.edu.tw/AOOP/
+
+解析:
+
+Regex ^myRegex;
+				myRegex = gcnew Regex("<title>(.+)</title>");
+				Match ^mc;
+				mc = myRegex->Match(richTextBox1->Text);
+                richTextBox2->Text += mc->Groups[1]->Value;

@@ -1,0 +1,13 @@
+/* program op03.c */
+/* demo logical operation */
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a= -1,b=9;
+	printf("%d AND %d = %d\n",a,b,a&&b);
+	printf("%d OR  %d = %d\n",a,b,a||b);
+	printf("NOT %d = %d\n",a,!a);
+	getch();
+}
+

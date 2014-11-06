@@ -1,0 +1,27 @@
+﻿已經開始建置於 2014/1/4 下午 10:08:03。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Dropbox\大三上\AOOP\10.31_lab\lab 5\lab 5\lab 5.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\lab 5.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         所有輸出都是最新的。
+         所有輸出都是最新的。
+       CoreResGen:
+         相對於資源的來源檔案，並沒有資源過期。將略過產生資源。
+       ResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         所有輸出都是最新的。
+         lab 5.vcxproj -> C:\Users\user\Dropbox\大三上\AOOP\10.31_lab\lab 5\Debug\lab 5.exe
+       MetaGen:
+       將略過目標 "MetaGen"，因為所有輸出檔對於其輸入檔而言都已更新。
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\lab 5.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\lab 5.lastbuildstate"。
+     1>專案 "C:\Users\user\Dropbox\大三上\AOOP\10.31_lab\lab 5\lab 5\lab 5.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.42

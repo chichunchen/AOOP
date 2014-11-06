@@ -1,0 +1,64 @@
+# Project: Convenience Store
+# Makefile created by Dev-C++ 5.5.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Commodity.o Staff.o Customer.o "Convenience\ Store.o" full_time.o part_time.o book.o daily_necessities.o drink.o food.o ice_food.o micro_food.o
+LINKOBJ  = main.o Commodity.o Staff.o Customer.o "Convenience Store.o" full_time.o part_time.o book.o daily_necessities.o drink.o food.o ice_food.o micro_food.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"
+BIN      = "Convenience Store.exe"
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Commodity.o: Commodity.cpp
+	$(CPP) -c Commodity.cpp -o Commodity.o $(CXXFLAGS)
+
+Staff.o: Staff.cpp
+	$(CPP) -c Staff.cpp -o Staff.o $(CXXFLAGS)
+
+Customer.o: Customer.cpp
+	$(CPP) -c Customer.cpp -o Customer.o $(CXXFLAGS)
+
+"Convenience\ Store.o": Convenience\ Store.cpp
+	$(CPP) -c "Convenience Store.cpp" -o "Convenience Store.o" $(CXXFLAGS)
+
+full_time.o: full_time.cpp
+	$(CPP) -c full_time.cpp -o full_time.o $(CXXFLAGS)
+
+part_time.o: part_time.cpp
+	$(CPP) -c part_time.cpp -o part_time.o $(CXXFLAGS)
+
+book.o: book.cpp
+	$(CPP) -c book.cpp -o book.o $(CXXFLAGS)
+
+daily_necessities.o: daily_necessities.cpp
+	$(CPP) -c daily_necessities.cpp -o daily_necessities.o $(CXXFLAGS)
+
+drink.o: drink.cpp
+	$(CPP) -c drink.cpp -o drink.o $(CXXFLAGS)
+
+food.o: food.cpp
+	$(CPP) -c food.cpp -o food.o $(CXXFLAGS)
+
+ice_food.o: ice_food.cpp
+	$(CPP) -c ice_food.cpp -o ice_food.o $(CXXFLAGS)
+
+micro_food.o: micro_food.cpp
+	$(CPP) -c micro_food.cpp -o micro_food.o $(CXXFLAGS)
